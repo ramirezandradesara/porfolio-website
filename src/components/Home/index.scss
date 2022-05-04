@@ -16,7 +16,7 @@
     font-family: 'Coolvetica';
     font-weight: 400;
 
-    &:before { // <h1> arriba del texto
+    &:before {
       content: '<h1>';
       font-family: 'La Belle Aurore', cursive;
       color: #ffd700;
@@ -35,28 +35,28 @@
       position: absolute;
       margin-top: 18px;
       margin-left: 20px;
-      animation: fadeIn 1s 1.7s backwards; // animación
+      animation: fadeIn 1s 1.7s backwards;
       opacity: 0.6;
     }
 
     img {
-      margin-left: 20px; // despega la S de I'm
+      margin-left: 20px;
       opacity: 0;
-      width: 32px; // hace la S más pequeña
+      width: 32px;
       height: auto;
-      animation: rotateIn 1s linear both; // rotacion de la S
+      animation: rotateIn 1s linear both;
       animation-delay: 1.4s;
     }
   }
 
-  h2 { 
+  h2 {
     color: #8d8d8d;
     margin-top: 20px;
     font-weight: 400;
     font-size: 11px;
     font-family: sans-serif;
     letter-spacing: 3px;
-    animation: fadeIn 1s 1.8s backwards; // animación del subtítulo 
+    animation: fadeIn 1s 1.8s backwards;
   }
 
   .flat-button {
@@ -70,7 +70,7 @@
     border: 1px solid #ffd700;
     margin-top: 25px;
     float: left;
-    animation: fadeInAnimation 1s 1.8s backwards; // animación del button
+    animation: fadeInAnimation 1s 1.8s backwards;
     white-space: nowrap;
 
     &:hover {
@@ -79,3 +79,5 @@
     }
   }
 }
+
+

@@ -1,9 +1,7 @@
-
 // variables globales
 $primary-color: #ffd700;
 
-// usamos de animate ciertas animaciones
-@import 'animate.css';
+@import 'animate.css'; // librería de animaciones
 @import '~loaders.css/src/animations/pacman.scss';
 
 @font-face {
