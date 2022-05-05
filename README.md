@@ -1,7 +1,7 @@
-Este proyecto hecho con React.
+# Este proyecto hecho con React.
 
 
-Paquetes instalados
+## Paquetes instalados
 
 Icons
 
