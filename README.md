@@ -1,5 +1,4 @@
-# Este proyecto hecho con React.
-
+#  This project was bootstrapped with Create React App.
 
 ## Paquetes instalados
 
