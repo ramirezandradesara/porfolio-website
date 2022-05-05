@@ -12,8 +12,8 @@
 .cubespinner {
   animation-name: spincube;
   animation-timing-function: ease-in-out;
-  animation-iteration-count: infinite;
-  animation-duration: 12s;
+  animation-iteration-count: infinite; // infinite rotation of the cube
+  animation-duration: 12s; // after 12s, it keeps rotating
   transform-style: preserve-3d;
   transform-origin: 100px 100px 0;
   margin-left: calc(50% - 100px);
@@ -58,7 +58,7 @@
   }
 }
 
-@keyframes spincube {
+@keyframes spincube { // rotacion del cubo 
   from,
   to {
     transform: rotateX(0deg) rotateY(0deg) rotateZ(0deg);

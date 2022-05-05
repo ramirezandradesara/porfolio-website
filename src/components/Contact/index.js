@@ -28,11 +28,11 @@ const Contact = () => {
       )
       .then(
         () => {
-          alert('Message successfully sent!')
+          alert('Message successfully sent!') // sucessful response
           window.location.reload(false)
         },
         () => {
-          alert('Failed to send the message, please try again')
+          alert('Failed to send the message, please try again') // failed response
         }
       )
   }
@@ -88,6 +88,8 @@ const Contact = () => {
               </ul>
             </form>
           </div>
+
+          {/* Map config */}
         </div>
         <div className="info-map">
           Slobodan Gajić,
@@ -100,6 +102,7 @@ const Contact = () => {
           <span>freelancerslobodan@gmail.com</span>
         </div>
         <div className="map-wrap">
+          {/* coordenadas from react leaf */}
           <MapContainer center={[44.96366, 19.61045]} zoom={13}>
             <TileLayer url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" />
             <Marker position={[44.96366, 19.61045]}>

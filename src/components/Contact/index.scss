@@ -9,7 +9,7 @@
     li {
       padding: 0;
       margin: 0;
-      list-style: none;
+      list-style: none; // remove the bullets
       margin-bottom: 10px;
       opacity: 0;
       overflow: hidden;
@@ -20,13 +20,13 @@
       animation-fill-mode: forwards;
     }
 
-    li.half {
+    li.half { // only name and email inputs
       width: 49%;
       margin-left: 2%;
       float: left;
       clear: none;
 
-      &:first-child {
+      &:first-child { // name input
         margin-left: 0;
       }
     }
@@ -73,7 +73,7 @@
   }
 }
 
-.map-wrap {
+.map-wrap { // box text
   background: rgba(8, 253, 216, 0.1);
   float: right;
   width: 53%;
@@ -90,12 +90,12 @@
   animation-fill-mode: forwards;
 }
 
-.info-map {
+.info-map { // text with the address
   position: absolute;
   background: #000;
   top: 50px;
   right: 30%;
-  z-index: 999999;
+  z-index: 999999; // on top of everything
   width: 267px;
   padding: 20px;
   color: #fff;
