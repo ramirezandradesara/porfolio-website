@@ -32,5 +32,5 @@ Style
 	Npm i sass
 	
 Routing
-
-Npm react-router-dom![image](https://user-images.githubusercontent.com/86701343/166995815-c89ba6f4-41dd-48de-b595-6845107b6fa5.png)
+	
+	npm react-router-dom
